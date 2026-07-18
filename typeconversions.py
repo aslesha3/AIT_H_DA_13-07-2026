@@ -1,6 +1,6 @@
 #converting into string
 #int/integer
-i=42  #we cannot convert a char string into int it can only possible for numbers
+i=42  
 print(i)
 i4=str(i)
 print(type(i4),i4)
@@ -36,6 +36,10 @@ print(type(i1),i1)
 # a1=int(a) #it does not represent a valid number
 # print(type(a1),a1)
 # so it will shows invalid literal for int() with base 10: 'analytics'
+a='3'
+print(a)
+a1=int(a) 
+print(type(a1),a1)
 
 #float
 b=15.37
@@ -102,7 +106,6 @@ print(type(i1),i1) #<class 'complex'> (73+0j)
 # print(s)
 # s1=complex(s) #invalid format
 # print(type(s1),s1)
-
 s='42'
 print(s)
 s1=complex(s)
